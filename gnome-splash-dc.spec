@@ -11,6 +11,7 @@ URL:		http://www.pld-dc.org/
 Requires:	gnome-session >= 2.4.1-6
 Provides:	gnome-splash
 Obsoletes:	gnome-splash
+BuildArch:      noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
