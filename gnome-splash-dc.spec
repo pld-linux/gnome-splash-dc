@@ -15,17 +15,18 @@ BuildArch:      noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-GNOME splash screen
+GNOME splash screen from DC.
 
 %description -l pl
-Ekran startowy GNOME
+Ekran startowy GNOME z DC.
 
 %prep
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_pixmapsdir}/splash
-cp -f %{SOURCE0} $RPM_BUILD_ROOT%{_pixmapsdir}/splash/gnome-splash.png
+
+install %{SOURCE0} $RPM_BUILD_ROOT%{_pixmapsdir}/splash/gnome-splash.png
 
 %clean
 rm -rf $RPM_BUILD_ROOT
