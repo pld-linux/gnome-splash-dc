@@ -2,7 +2,7 @@ Summary:	GNOME splash screen
 Summary(pl):	Ekran startowy GNOME
 Name:		gnome-splash-dc
 Version:	1
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Amusements
 Source0:	http://www1.pld-dc.org/~averne/gnome-splash.png
