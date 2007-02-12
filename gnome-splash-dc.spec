@@ -1,5 +1,5 @@
 Summary:	GNOME splash screen
-Summary(pl):	Ekran startowy GNOME
+Summary(pl.UTF-8):   Ekran startowy GNOME
 Name:		gnome-splash-dc
 Version:	1
 Release:	2
@@ -17,7 +17,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 GNOME splash screen from DC.
 
-%description -l pl
+%description -l pl.UTF-8
 Ekran startowy GNOME z DC.
 
 %prep
