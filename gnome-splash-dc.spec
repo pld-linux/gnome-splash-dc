@@ -1,5 +1,5 @@
 Summary:	GNOME splash screen
-Summary(pl.UTF-8):   Ekran startowy GNOME
+Summary(pl.UTF-8):	Ekran startowy GNOME
 Name:		gnome-splash-dc
 Version:	1
 Release:	2
