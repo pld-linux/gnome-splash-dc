@@ -5,9 +5,11 @@ Version:	1
 Release:	2
 License:	GPL
 Group:		X11/Amusements
-Source0:	http://www1.pld-dc.org/~averne/gnome-splash.png
+#Source0:	http://www1.pld-dc.org/~averne/gnome-splash.png
+Source0:	gnome-splash.png
 # Source0-md5:	de56a169360ed8a6dcc5237e343d6f50
-URL:		http://www.pld-dc.org/
+#URL:		http://www.pld-dc.org/
+URL:		http://www.pld-linux.org/
 Requires:	gnome-session >= 2.4.1-6
 Provides:	gnome-splash
 Obsoletes:	gnome-splash
@@ -15,10 +17,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-GNOME splash screen from DC.
+GNOME splash screen from former PLD DC project.
 
 %description -l pl.UTF-8
-Ekran startowy GNOME z DC.
+Ekran startowy GNOME z dawnego projektu PLD DC.
 
 %prep
 
